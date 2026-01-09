@@ -1,8 +1,8 @@
-# Codebase Skills Marketplace
+# Agentic Jumpstart Marketplace
 
-A Claude Code plugin marketplace that automatically analyzes your codebase and generates specialized skills for optimal code generation.
+A Claude Code plugin marketplace that automatically analyzes your codebase and generates specialized skills for optimal code generation. **Powered by [Agentic Jumpstart](https://agenticjumpstart.com)** - Your hub for agentic AI development resources, tutorials, and courses.
 
-> **🚀 Discover more AI agent tools and resources at [agenticjumpstart.com](https://agenticjumpstart.com)** - Your hub for agentic AI development resources, tutorials, and tools.
+> **🚀 Learn to build with AI agents at [agenticjumpstart.com](https://agenticjumpstart.com)** - Master agentic AI development with comprehensive courses, tutorials, and tools.
 
 ## Overview
 
@@ -23,7 +23,7 @@ This marketplace contains a powerful plugin that uses 10 specialized agents to:
 ### Install the Plugin
 
 ```bash
-/plugin install codebase-analyzer@codebase-skills-marketplace
+/plugin install agentic-jumpstart-skills@agentic-jumpstart-marketplace
 ```
 
 ## Usage
@@ -118,7 +118,7 @@ To test the marketplace locally:
 
 ```bash
 /plugin marketplace add agentic-jumpstart/marketplace
-/plugin install codebase-analyzer@codebase-skills-marketplace
+/plugin install agentic-jumpstart-skills@agentic-jumpstart-marketplace
 /analyze-and-generate-skills
 ```
 
@@ -165,16 +165,16 @@ marketplace/
 
 ## Learn More
 
-**Want to explore more agentic AI tools and resources?**
+**Ready to master agentic AI development?**
 
-Visit **[agenticjumpstart.com](https://agenticjumpstart.com)** for:
+This marketplace is part of the **[Agentic Jumpstart](https://agenticjumpstart.com)** ecosystem. Visit **[agenticjumpstart.com](https://agenticjumpstart.com)** to:
 
-- More Claude Code plugins and marketplaces
-- AI agent development tutorials
-- Best practices for building with AI
-- Community resources and examples
+- 🎓 **Take comprehensive courses** on building with AI agents
+- 📚 **Access tutorials** and best practices for agentic AI development
+- 🛠️ **Discover more tools** and plugins for Claude Code
+- 👥 **Join the community** of developers building the future with AI agents
 
-This marketplace is part of the Agentic Jumpstart ecosystem, designed to help developers build better with AI agents.
+**Transform your development workflow** - Learn how to leverage AI agents effectively with Agentic Jumpstart's proven methodologies and tools.
 
 ## License
 

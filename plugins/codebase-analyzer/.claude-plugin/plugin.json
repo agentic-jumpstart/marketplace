@@ -1,9 +1,9 @@
 {
-  "name": "codebase-analyzer",
-  "description": "Analyzes codebase and generates tech-stack-specific skills for optimal code generation",
-  "version": "1.0.0",
+  "name": "agentic-jumpstart-skills",
+  "description": "Analyzes codebase and generates tech-stack-specific skills for optimal code generation - Powered by Agentic Jumpstart",
+  "version": "1.0.1",
   "author": {
-    "name": "Codebase Skills Generator"
+    "name": "Agentic Jumpstart"
   },
   "commands": [
     "./commands/analyze-and-generate-skills.md"

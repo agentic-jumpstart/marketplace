@@ -1,21 +1,21 @@
 {
-  "name": "codebase-skills-marketplace",
+  "name": "agentic-jumpstart-marketplace",
   "owner": {
-    "name": "Codebase Skills Generator",
+    "name": "Agentic Jumpstart",
     "email": "webdevcody@gmail.com"
   },
   "metadata": {
-    "description": "A marketplace for automatically generating codebase-specific skills and agents",
-    "version": "1.0.1"
+    "description": "A marketplace for automatically generating codebase-specific skills and agents - Part of the Agentic Jumpstart ecosystem",
+    "version": "1.0.2"
   },
   "plugins": [
     {
-      "name": "codebase-analyzer",
+      "name": "agentic-jumpstart-skills",
       "source": "./plugins/codebase-analyzer",
-      "description": "Analyzes codebase and generates tech-stack-specific skills for optimal code generation",
-      "version": "1.0.1",
+      "description": "Analyzes codebase and generates tech-stack-specific skills for optimal code generation - Powered by Agentic Jumpstart",
+      "version": "1.0.2",
       "author": {
-        "name": "Codebase Skills Generator"
+        "name": "Agentic Jumpstart"
       }
     }
   ]
