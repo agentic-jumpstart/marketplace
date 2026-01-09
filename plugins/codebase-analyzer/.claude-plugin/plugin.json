@@ -1,0 +1,24 @@
+{
+  "name": "codebase-analyzer",
+  "description": "Analyzes codebase and generates tech-stack-specific skills for optimal code generation",
+  "version": "1.0.0",
+  "author": {
+    "name": "Codebase Skills Generator"
+  },
+  "commands": [
+    "./commands/analyze-and-generate-skills.md"
+  ],
+  "agents": [
+    "./agents/tech-stack-detector.md",
+    "./agents/security-analyzer.md",
+    "./agents/performance-analyzer.md",
+    "./agents/react-analyzer.md",
+    "./agents/backend-analyzer.md",
+    "./agents/frontend-analyzer.md",
+    "./agents/database-analyzer.md",
+    "./agents/testing-analyzer.md",
+    "./agents/architecture-analyzer.md",
+    "./agents/dependency-analyzer.md",
+    "./agents/code-quality-analyzer.md"
+  ]
+}
