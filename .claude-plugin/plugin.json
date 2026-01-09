@@ -30,17 +30,6 @@
     }
   ],
   "skills": [
-    "tech-stack-analyzer",
-    "react-security",
-    "nextjs-security",
-    "express-security",
-    "api-security",
-    "auth-security",
-    "database-security",
-    "input-validation",
-    "dependency-security",
-    "code-quality",
-    "testing-practices"
   ],
   "agents": [
     "tech-stack-analyzer-agent",
