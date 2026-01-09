@@ -23,22 +23,22 @@ This marketplace contains a powerful plugin that uses 10 specialized agents to:
 ### Install the Plugin
 
 ```bash
-/plugin install agentic-jumpstart-skills@agentic-jumpstart-marketplace
+/plugin install agentic-jumpstart-skills@agentic-jumpstart
 ```
 
 ## Usage
 
-### The `/analyze-and-generate-skills` Slash Command
+### The `/agentic-jumpstart-skills:analyze-and-generate-skills` Slash Command
 
 Once installed, simply run the slash command in your Claude Code workspace:
 
 ```bash
-/analyze-and-generate-skills
+/agentic-jumpstart-skills:analyze-and-generate-skills
 ```
 
 **What this command does:**
 
-The `/analyze-and-generate-skills` command is a powerful one-step solution that:
+The `/agentic-jumpstart-skills:analyze-and-generate-skills` command is a powerful one-step solution that:
 
 1. **Automatically detects your tech stack** - Scans dependency files (package.json, requirements.txt, Gemfile, Cargo.toml, go.mod, etc.) to identify all technologies in use
 2. **Orchestrates 10 specialized agents** - Activates relevant agents based on what's detected in your codebase:
@@ -118,8 +118,8 @@ To test the marketplace locally:
 
 ```bash
 /plugin marketplace add agentic-jumpstart/marketplace
-/plugin install agentic-jumpstart-skills@agentic-jumpstart-marketplace
-/analyze-and-generate-skills
+/plugin install agentic-jumpstart-skills@agentic-jumpstart
+/agentic-jumpstart-skills:analyze-and-generate-skills
 ```
 
 ## Validation
