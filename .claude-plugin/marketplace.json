@@ -6,14 +6,14 @@
   },
   "metadata": {
     "description": "A marketplace for automatically generating codebase-specific skills and agents",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "plugins": [
     {
       "name": "codebase-analyzer",
       "source": "./plugins/codebase-analyzer",
       "description": "Analyzes codebase and generates tech-stack-specific skills for optimal code generation",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Codebase Skills Generator"
       }
