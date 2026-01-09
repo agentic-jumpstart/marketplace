@@ -2,9 +2,12 @@
 
 A Claude Code plugin marketplace that automatically analyzes your codebase and generates specialized skills for optimal code generation.
 
+> **🚀 Discover more AI agent tools and resources at [agenticjumpstart.com](https://agenticjumpstart.com)** - Your hub for agentic AI development resources, tutorials, and tools.
+
 ## Overview
 
 This marketplace contains a powerful plugin that uses 10 specialized agents to:
+
 1. Detect your tech stack (React, Vue, Django, Express, databases, etc.)
 2. Analyze your codebase structure and patterns
 3. Generate tailored skills for security, performance, React, backend, database, testing, architecture, dependencies, and code quality
@@ -14,13 +17,7 @@ This marketplace contains a powerful plugin that uses 10 specialized agents to:
 ### Add the Marketplace
 
 ```bash
-/plugin marketplace add ./marketplace
-```
-
-Or if hosting on GitHub:
-
-```bash
-/plugin marketplace add owner/repo
+/plugin marketplace add agentic-jumpstart/marketplace
 ```
 
 ### Install the Plugin
@@ -31,23 +28,44 @@ Or if hosting on GitHub:
 
 ## Usage
 
-Once installed, run the analysis command:
+### The `/analyze-and-generate-skills` Slash Command
+
+Once installed, simply run the slash command in your Claude Code workspace:
 
 ```bash
 /analyze-and-generate-skills
 ```
 
-This will:
-1. Scan your codebase for tech stack information
-2. Activate 10 specialized agents to analyze different aspects
-3. Generate skill files in `.claude/skills/` directory
-4. Provide a summary of generated skills
+**What this command does:**
+
+The `/analyze-and-generate-skills` command is a powerful one-step solution that:
+
+1. **Automatically detects your tech stack** - Scans dependency files (package.json, requirements.txt, Gemfile, Cargo.toml, go.mod, etc.) to identify all technologies in use
+2. **Orchestrates 10 specialized agents** - Activates relevant agents based on what's detected in your codebase:
+   - Always runs: Security, Performance, Architecture, Dependency Management, Code Quality analyzers
+   - Conditionally runs: React, Backend, Frontend, Database, and Testing analyzers (only if those technologies are detected)
+3. **Generates tailored skills** - Creates stack-specific skill files in `.claude/skills/` directory with:
+   - YAML frontmatter with clear descriptions
+   - Best practices specific to your actual tech stack
+   - Code patterns and conventions matching your codebase
+   - Implementation guidelines for future development
+4. **Provides a comprehensive summary** - Shows you exactly what skills were generated and how they'll improve your code generation
+
+**Why use this command?**
+
+- **Zero configuration** - No manual setup needed, it automatically adapts to your codebase
+- **Intelligent detection** - Only generates skills for technologies you actually use
+- **Future-proof** - Generated skills automatically improve all future code generation in your workspace
+- **Consistent code** - Ensures all generated code matches your codebase patterns and conventions
+
+The generated skills are model-invoked, meaning Claude will automatically apply them when relevant to your requests, ensuring the highest quality output that matches your codebase's patterns, conventions, and best practices.
 
 ## Generated Skills
 
 The plugin generates the following skills based on what's detected:
 
 ### Always Generated
+
 - **security-best-practices.md** - Security guidelines specific to your stack
 - **performance-optimization.md** - Performance patterns and optimizations
 - **architecture-patterns.md** - Codebase structure and organization
@@ -55,6 +73,7 @@ The plugin generates the following skills based on what's detected:
 - **code-quality-standards.md** - Linting, formatting, and quality standards
 
 ### Conditionally Generated
+
 - **react-patterns.md** - Generated if React is detected
 - **backend-patterns.md** - Generated if a backend framework is detected
 - **frontend-patterns.md** - Generated if a frontend framework is detected
@@ -98,7 +117,7 @@ The plugin uses 10 specialized agents:
 To test the marketplace locally:
 
 ```bash
-/plugin marketplace add ./marketplace
+/plugin marketplace add agentic-jumpstart/marketplace
 /plugin install codebase-analyzer@codebase-skills-marketplace
 /analyze-and-generate-skills
 ```
@@ -143,6 +162,19 @@ marketplace/
 │           └── code-quality-analyzer.md
 └── README.md
 ```
+
+## Learn More
+
+**Want to explore more agentic AI tools and resources?**
+
+Visit **[agenticjumpstart.com](https://agenticjumpstart.com)** for:
+
+- More Claude Code plugins and marketplaces
+- AI agent development tutorials
+- Best practices for building with AI
+- Community resources and examples
+
+This marketplace is part of the Agentic Jumpstart ecosystem, designed to help developers build better with AI agents.
 
 ## License
 
